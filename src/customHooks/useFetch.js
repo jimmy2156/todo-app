@@ -17,7 +17,7 @@ export const useFetch = (url) => {
         getProducts()
     }, [url])
     return {
-        loading, products
+        loading, products, setproducts
     }
 
 }
