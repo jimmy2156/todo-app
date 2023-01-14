@@ -1,15 +1,22 @@
-import Context from "./components/context";
 
 
 
+
+import Context from "./componenets/context";
+import hero from "./img/hero.svg"
  
 
 function App() {
   
  
   return ( 
-    <div className="App bg-blue-300 min-h-screen w-full">
-   <Context/>
+    <div style={{
+      background: `url(${hero})`,
+      backgroundRepeat: 'no-repeat'}}
+  
+      className="h-screen w-screen bg-origin-border">
+        <Context/>
+
   </div>
   ) 
   }
